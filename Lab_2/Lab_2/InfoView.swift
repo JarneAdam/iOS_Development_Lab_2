@@ -19,6 +19,7 @@ struct InfoView: View {
                 .foregroundStyle(.gray)
             Text("Names")
                 .fontWeight(.bold)
+                .padding(.leading)
             Text("The name Barcelona originates from the ancient Iberian term Baŕkeno, which appears on an old coin inscription in Iberian script as Barkeno. It is also found in Ancient Greek sources as Barkinṓn and in Latin as Barcino, Barcilonum, and Barcenona. Some sources suggest the city might have been named after the Carthaginian general Hamilcar Barca, who is said to have founded the city in the 3rd century BC, although there is no evidence linking the ancient name Barcino to Hamilcar’s family. During the Middle Ages, the city was known by several variations of its name, including Barchinona, Barçalona, Barchelonaa, and Barchenona. Locals sometimes use the abbreviated form Barna when referring to the city. The nickname Barça is used only for the local football club, FC Barcelona, not for the city itself. Another common abbreviation is BCN, which is also the airport code for Barcelona-El Prat Airport. In Catalan, the city is referred to as Ciutat Comtal, and in Spanish as Ciudad Condal, meaning “Comital City” or “City of Counts,” a reference to its history as the seat of the Count of Barcelona.")
                 .foregroundStyle(.gray)
         }
