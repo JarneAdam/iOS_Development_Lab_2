@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct FlightView: View {
+    let flightInfo: FlightInfo
     var body: some View {
-        
+        VStack{
+            HStack{
+                VStack{
+                    Text(flightInfo.departureCityCode)
+                    Text(flightInfo.departureCity)
+                    Text(flightInfo.departureTime)
+                }
+                    Image(systemName: "airplane")
+                }
+                VStack{
+                    Text(flightInfo.arrivalCityCode)
+                    Text(flightInfo.arrivalCity)
+                    Text(flightInfo.arrivalTime)
+                }
+                
+            }
+        }
     }
-}
-
-#Preview {
-    FlightView()
-}

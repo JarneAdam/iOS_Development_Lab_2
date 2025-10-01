@@ -10,7 +10,9 @@ import SwiftUI
 struct InfoView: View {
     var body: some View {
         ScrollView{
-            Image("Barcelona").resizable().aspectRatio(contentMode: .fit)
+            Image("Barcelona")
+                .resizable()
+                .scaledToFit()
             Text("Barcelona")
                 .font(.title)
                 .foregroundStyle(.tint)
