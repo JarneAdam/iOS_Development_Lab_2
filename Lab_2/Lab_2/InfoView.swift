@@ -12,7 +12,7 @@ struct InfoView: View {
         ScrollView{
             Image("Barcelona")
                 .resizable()
-                .scaledToFit()
+                .frame(height: 300)
             Text("Barcelona")
                 .font(.title)
                 .foregroundStyle(.tint)
